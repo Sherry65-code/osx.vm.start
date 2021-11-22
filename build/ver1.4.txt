@@ -1,0 +1,5 @@
+Version = 1.4
+New thing
+1. new wallapaper
+2. new feature - now you can move all windows using mouse
+3. Minor bug fixes . (confidental)
