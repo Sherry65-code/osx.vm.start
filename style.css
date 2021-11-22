@@ -511,3 +511,6 @@ border-radius: 50%;
     color: #ffffffb7;
     font-size: 30px;
 }
+@keyframes zoom {
+    100%{transform: scale(30);}
+}
