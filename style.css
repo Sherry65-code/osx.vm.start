@@ -514,3 +514,51 @@ border-radius: 50%;
 @keyframes zoom {
     100%{transform: scale(30);}
 }
+.leftmain{
+    position: absolute;
+    left: 0;
+    right: 50%;
+    bottom: 0;
+    top: 30px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0);
+}
+.rightmain{
+    background-color: rgba(0, 0, 255, 0);
+    position: absolute;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    color: white;
+    z-index: 4;
+}
+#codemain{
+    background-color: rgba(15, 17, 34 , 0.99);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+    overflow-y: scroll;
+    text-align: left;
+    padding-block: 20px;
+    padding-inline-start: 10px;
+}
+.fly{
+    z-index: 6;
+    position: absolute;
+    background-color: #ffffff00;
+    border: none;
+    right: 10px;
+    bottom: 10px;
+}
+.fly2{
+    z-index: 6;
+    position: absolute;
+    border: none;
+    right: 60px;
+    bottom: 10px;
+    z-index: 10;
+}
