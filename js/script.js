@@ -35,3 +35,10 @@ function sleeper()
 {
     document.querySelector('.boot').style = "visibility: visible;";
 }
+
+window.addEventListener('dblclick' , ()=>{
+
+document.getElementById('mouse').style = `left:`+mouseX+`;`;
+document.getElementById('mouse').style = `right:`+mouseY+`;`;
+document.getElementById('mouse').style = `visibility: visible;`;
+});

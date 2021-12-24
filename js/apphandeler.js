@@ -4,7 +4,6 @@ var bro = "min";
 var cdr = "min";
 var ter = "min";
 var str = "min";
-var codd = "min";
 // visibility: visible;
 function setClose() {
     document.getElementById('set').style = "visibility: hidden;";
@@ -118,22 +117,4 @@ else if (str == "max"){
     str = "min";
     document.getElementById('str').style = "visibility: visible;border-radius: 18px;";
 } 
-}
-
-function coddOpen() {
-    document.getElementById('codd').style = "visibility: visible;";
-}
-function coddClose() {
-    document.getElementById('codd').style = "visibility: hidden;";
-}
-function coddMax()
-{
-    if (codd == "min"){
-        codd = "max";
-    document.getElementById('codd').style = "visibility: visible;width: "+window.innerWidth+"px;height: 100%;left:0;top:0;border-radius: 0;";
-}
-else if (codd == "max"){
-    codd = "min";
-    document.getElementById('codd').style = "visibility: visible;border-radius: 18px;";
-}
 }

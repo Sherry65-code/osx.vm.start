@@ -11,7 +11,9 @@
 </head>
 <body><button class="trans" onclick="sleeper()"><img src="./images/power.png" width="4%" alt=""></button>
     <div class="boot"><br><br><br><br><br><br><br><br><br>
-        <h1 style="color: aliceblue;font-size: 100px;animation: 100s 1 zoom;animation-timing-function: cubic-bezier(1,1,1,1);">X</h1>
+        <h1 id="bootime">X</h1>
+        <div class="strech">
+        <div class="loading">Connecting to Server...</div></div>
 
     </div>
     <div class="taskbar">
@@ -28,7 +30,6 @@
     <button class="amb" onclick="broOpen()"><img class="ambi" src="./images/browser.png" height="100%" alt="" title="Browser" >Browser</button>
     <button class="amb" onclick="terOpen()"><img class="ambi" src="./images/tericon.png" height="100%" alt="" title="Terminal" >Terminal</button>
     <button class="amb" onclick="strOpen()"><img class="ambi" src="./images/storeico.png" height="100%" alt="" title="Terminal" >Store</button>
-    <button class="amb" onclick="coddOpen()"><img class="ambi" src="./images/coddico.png" height="100%" alt="" title="Terminal" >Invento Code App Builder</button>
 </div>
     </div></div>
     
@@ -103,10 +104,10 @@
 <button class="min" onclick="strMax()">
 </button></div>
 <div class="main"><div class="stt">
-<img src="./images/banner1.png" class="banner1"><br>
+    <div id="bannergrad">Invento Store</div><br><br>
 <button class="strapp" onclick="insdcoder()">
-    <img src="./images/dcoder.webp" alt="" class="stri"><br>
-    Dcoder
+    <img src="./images/dcoder.webp" alt="" class="stri">
+    <span class="strr">Dcoder - Run Code Online</span>
 </button>
 </div>
 </div>
@@ -139,41 +140,16 @@
     </div>
     </div>
     <!-- Terminal end -->
-<!-- Coder Start -->
-<div id="codd" class="window" style="z-index: -2;">
-    <div class="header" id="coddheader" style="z-index: 10;"><div class="title" style="text-align: left;padding-inline-start: 30%;">Invento Coder</div>
-<button class="close" onclick="coddClose()">
-</button>
-<button class="min" onclick="coddMax()">
-</button></div>
-<div class="leftmain">
-</div>
-<div class="rightmain">
-    <div id="codemain" contenteditable="true">Build Feature coming soon
-iframe is suggested for making you app
-<br>
-app works through html
-<br> for using javascript please make an app website and add and iframe to link your app to your website for faster spped and better relaibility
-<br> javascript feature coming soon
-<br> thank you
-<br> Copyrights Parambir Singh & Invento OSX Dev
-</div>
-    <button class="fly" onclick="run_custom_code()"><img src="./images/playbut.svg" alt=""></button>
-<input type="text" placeholder="Type Title of app" class="fly2">
-</div>
-</div>
-
-<!-- Coder end -->
-
     </div>
 
 
-
+<div id="mouse">
+    <button class="mbut">Shutdown</button>
+</div>
 
   </div>
-  <script src="js/script.js"></script>
-  <script src="js/test.js"></script>
-  <script src="js/apphandeler.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/apphandeler.js"></script>
     <script src="js/boot.js"></script>
     <script src="./js/set.js"></script>
     <script src="js/time.js"></script>
