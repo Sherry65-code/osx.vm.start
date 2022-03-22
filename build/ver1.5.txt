@@ -1,2 +1,0 @@
-Fixed major bugs
-Added new app Invento Store
