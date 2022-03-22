@@ -1,0 +1,23 @@
+MAJOR UPDATE
+
+Changes-
+
+Full UI changed.
+Now More space to Have Windows.
+Fixed both major and minor bugs.
+New Icons.
+New Notification System with sound.
+New Shutdown but through terminal using 'shutdown' command.
+New Startup and shutdown sounds.
+Faster Loading.
+New Animations.
+Removed Crapp apps like Store.
+Faster Loading times.
+Now all apps are preloaded in OS.
+New Login System.
+Switched from images to CSS.
+New Gradients.
+New Loading.
+More beautiful UI.
+Changed Terminal that is more focused on GUI.
+New Autohide Taskbar.
