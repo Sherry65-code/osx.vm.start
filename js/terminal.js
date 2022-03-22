@@ -24,7 +24,7 @@ document.getElementById('terans').innerHTML = `Password : `+localStorage.getItem
     shutdown_now();
 }
         else{
-            document.getElementById("terans").innerHTML = `'`+terin.value+`' was an unknown command. <br>Go to <button target="resultsss" href="https://sherry65-code.github.io/osx.org">This Website</button> For more info.`;
+            document.getElementById("terans").innerHTML = `'`+terin.value+`' was an unknown command. <br>Go to <button onclick="browse('https://sherry65-code.github.io/osx.org')">This Website</button> For more info.`;
         }
     }
 }

@@ -30,3 +30,9 @@ function done_n()
     document.querySelector('.boot').innerHTML = "System Exit Code 1";
     window.close();
 }
+
+function browse(link)
+{
+    document.getElementById('bromain').innerHTML = `<iframe name="resultsss" id="result" src="`+link+`"></iframe>`;
+    broOpen();
+}
